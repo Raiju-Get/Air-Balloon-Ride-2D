@@ -16,7 +16,7 @@ public class WinState : GameStateMachine
         manager.PlayerController.StopPlayerVelocity();
     }
 
-    public override void RefreshState(GameManager manager)
+    public override void RefreshState(GameManager manager,bool correct)
     {
        
     }

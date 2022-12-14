@@ -8,7 +8,7 @@ public class PauseState : GameStateMachine
         Time.timeScale = 0;
     }
 
-    public override void RefreshState(GameManager manager)
+    public override void RefreshState(GameManager manager, bool correct)
     {
         throw new System.NotImplementedException();
     }

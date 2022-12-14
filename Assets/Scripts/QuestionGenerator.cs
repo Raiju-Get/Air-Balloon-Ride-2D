@@ -10,12 +10,12 @@ public class QuestionGenerator : MonoBehaviour
 {
 
     [SerializeField] private TextMeshProUGUI questionText;
-    [SerializeField] private TextMeshProUGUI[] options = new TextMeshProUGUI[2];
+    [SerializeField] private TextMeshProUGUI[] options = new TextMeshProUGUI[4];
 
-    public void GetQuestion(DataSet dataSet)
+    public void GetQuestion(Questions dataSet)
     {
         questionText.text = dataSet.question;
-        List<string> answerList = ShuffleList.ShuffleListItems<string>(dataSet.answer.ToList());
+        List<string> answerList = ShuffleList.ShuffleListItems<string>(dataSet.options.ToList());
         for (int i = 0; i < options.Length; i++)
         {
             options[i].text = answerList[i];

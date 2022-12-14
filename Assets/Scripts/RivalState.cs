@@ -9,7 +9,7 @@ public class RivalState : GameStateMachine
        
     }
 
-    public override void RefreshState(GameManager manager)
+    public override void RefreshState(GameManager manager, bool coorect)
     {
        
     }

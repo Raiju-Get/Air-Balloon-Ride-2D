@@ -8,19 +8,42 @@ public class RivalScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rivalPhysic2D;
     [SerializeField] private float jumpForce;
     [SerializeField] private AnswerRate answerPercentage;
+    [SerializeField] private float maxVelocity;
+    [SerializeField] private float sqrMaxVelocity;
+    [SerializeField] private Animator _animator;
 
     enum AnswerRate
     {
         Hundred,
         Ninety,
         Eighty,
-        Seventy
+        Seventy,
+        Sixty,
+        Fifty
+    }
+    private void Awake()
+    {
+        SetMaxVelocity(maxVelocity);
     }
     
 
+    void SetMaxVelocity(float maxVelocity)
+    {
+        this.maxVelocity = maxVelocity;
+        sqrMaxVelocity = maxVelocity * maxVelocity;
+    }
+    private void FixedUpdate()
+    {
+        var velocity = rivalPhysic2D.velocity;
+        if (velocity.sqrMagnitude>sqrMaxVelocity)
+        {
+            rivalPhysic2D.velocity = velocity.normalized * maxVelocity;
+        }
+    }
     void RivalController()
     {
         balloonController.BalloonFloat(rivalPhysic2D,jumpForce);
+        balloonController.SquishBallon(_animator);
     }
 
     public void StopVelocity()
@@ -54,7 +77,18 @@ public class RivalScript : MonoBehaviour
                     RivalController();
                 }
                 break;
-           
+            case AnswerRate.Sixty:
+                if (odds <=5)
+                {
+                    RivalController();
+                }
+                break;
+            case  AnswerRate.Fifty:
+                if (odds<=4)
+                {
+                    RivalController();
+                }
+                break;
         }
       
     }

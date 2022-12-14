@@ -17,7 +17,7 @@ public class LoseState : GameStateMachine
         
     }
 
-    public override void RefreshState(GameManager manager)
+    public override void RefreshState(GameManager manager,bool correct)
     {
        
     }

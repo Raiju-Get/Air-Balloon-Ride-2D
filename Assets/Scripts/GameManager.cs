@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite[] sprite = new Sprite[4];
     [SerializeField] private Sprite winnerSprite;
     [SerializeField] private TextMeshProUGUI winnerName;
+    [SerializeField] private PlaceTracker placeTracker;
     private GameStateMachine _currentState;
     private GameStateMachine _previousState;
     private float _tempTimer;
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
     public float Timer { get; set; }
     public float TempTimer { get=>_tempTimer; set=>_tempTimer = value; }
 
+    public PlaceTracker PlaceTracker => placeTracker;
     
     private void Start()
     {

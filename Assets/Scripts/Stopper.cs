@@ -12,7 +12,7 @@ public class Stopper : MonoBehaviour
    
     private void OnCollisionEnter2D(Collision2D col)
     {
-        manager.WinnerSprite = col.gameObject.GetComponent<SpriteRenderer>().sprite;
+        manager.WinnerSprite = col.gameObject.GetComponentInChildren<SpriteRenderer>().sprite;
         manager.WinnerName.text = col.gameObject.GetComponentInChildren<TextMeshPro>().text;
         if (col.gameObject.CompareTag("Player"))
         {

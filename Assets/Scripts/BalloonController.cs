@@ -1,9 +1,11 @@
 using UnityEngine;
 
-
 public class BalloonController : MonoBehaviour
 {
     [SerializeField] private float yMax;
+    [SerializeField] private float floatTimer;
+
+    
 
     public void BalloonFloat(Rigidbody2D balloon, float jumpSpeed )
     {
@@ -14,8 +16,14 @@ public class BalloonController : MonoBehaviour
         }
         else
         {
-            balloon.AddForce(new Vector2(balloon.velocity.x,jumpSpeed),ForceMode2D.Impulse);
+             balloon.AddForce(new Vector2(balloon.velocity.x,jumpSpeed),ForceMode2D.Impulse);
         }
     }
+
+    public void SquishBallon(Animator animator)
+    {
+        animator.SetTrigger("Squish");
+    }
+
 
 }
