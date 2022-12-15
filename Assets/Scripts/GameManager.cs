@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite winnerSprite;
     [SerializeField] private TextMeshProUGUI winnerName;
     [SerializeField] private PlaceTracker placeTracker;
+    [SerializeField] private ButtonDeactivator buttonDeactivator;
     private GameStateMachine _currentState;
     private GameStateMachine _previousState;
     private float _tempTimer;
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
     public readonly GameStateMachine LoseState = new LoseState();
     public AnswerSet AnswerSet => answerSet;
     public PlayerController PlayerController => playerController;
+    public ButtonDeactivator ButtonDeactivator => buttonDeactivator;
 
     public RivalScript[] RivalScript => rivalScript;
     public float Timer { get; set; }

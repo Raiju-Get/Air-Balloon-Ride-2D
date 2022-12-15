@@ -19,6 +19,8 @@ public class PlayState : GameStateMachine
     else
     {
       manager.AnswerSet.GetData();
+      manager.ButtonDeactivator.PunishPlayer();
+      
     }
  
   }
