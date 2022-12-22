@@ -9,15 +9,26 @@ public class InputManager : MonoBehaviour
   [SerializeField] private string correctAnswer;
   [SerializeField] private GameManager gameManager;
   [SerializeField] private AudioPlayer audioPlayer;
-  [FormerlySerializedAs("_audioClipCorrect")] [SerializeField] private AudioClip audioClipCorrect;
-  [FormerlySerializedAs("_audioClipIncorrect")] [SerializeField] private AudioClip audioClipIncorrect;
+  [SerializeField] private AudioClip audioClipCorrect;
+  [SerializeField] private AudioClip audioClipIncorrect;
+  [SerializeField] private ButtonDeactivator buttonDeactivator;
 
   public void GetAnswer(TextMeshProUGUI answer)
   {
     if (answer.text == correctAnswer)
     { 
+      if (gameManager.isTutorial)
+      {
+     
+        gameManager.CorrectAnswerPointer.SetActive(false);
+        buttonDeactivator.ActivateButtons();
+        gameManager.TutorialText.gameObject.SetActive(false);
+        gameManager.isTutorial = false;
+        
+      }
       gameManager.PlayState.RefreshState(gameManager, true);
       audioPlayer.Play(audioClipCorrect);
+    
     }
     else
     {

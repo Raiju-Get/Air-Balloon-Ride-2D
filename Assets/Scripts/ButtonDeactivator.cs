@@ -20,6 +20,11 @@ public class ButtonDeactivator : MonoBehaviour
       }
       yield return new WaitForSeconds(disableTimer);
       
+      ActivateButtons();
+   }
+
+   public void ActivateButtons()
+   {
       foreach (var button in buttonList)
       {
          button.interactable = true;

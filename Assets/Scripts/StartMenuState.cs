@@ -6,7 +6,8 @@ public class StartMenuState : GameStateMachine
 {
     public override void EnterState(GameManager manager)
     {
-      
+        
+        Debug.Log("EnterState");
     }
 
 
@@ -39,10 +40,12 @@ public class StartMenuState : GameStateMachine
         }
         else
         {
+            manager.PlayerUI.SetActive(true);
             manager.StartTimerImage.gameObject.SetActive(false);
             manager.StartTimerPanel.gameObject.SetActive(false);
+            
             manager.SwitchState(manager.PlayState);
-            manager.PlayerUI.SetActive(true);
+            
         }
 
     }

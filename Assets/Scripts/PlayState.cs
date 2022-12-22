@@ -32,12 +32,16 @@ public class PlayState : GameStateMachine
     manager.Timer -= Time.deltaTime;
     if (manager.Timer <= 0 && manager.CurrentState == manager.PlayState)
     {
-      
-      foreach (var t in manager.RivalScript)
+      if (!manager.isTutorial)
       {
-        t.AiFunction();
+        foreach (var t in manager.RivalScript)
+        {
+          t.AiFunction();
+        }
+        manager.Timer = manager.TempTimer;
       }
-      manager.Timer = manager.TempTimer;
+      
+    
     
     }
     

@@ -10,8 +10,7 @@ public class PlatformManager : MonoBehaviour
     public GameObject loadingPanel;
 
     public bool Initialized { get; private set; }
-
-    [HideInInspector]
+    
     public string path;
 
     public PLATFORM CurrentPlatform { get; private set; } = PLATFORM.WEB_PC;
@@ -53,7 +52,7 @@ public class PlatformManager : MonoBehaviour
         loadingPanel.SetActive(false);
         this.path = path;
         Initialized = true;
-        
+
     }
 
     private void OnDestroy()

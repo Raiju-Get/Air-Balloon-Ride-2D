@@ -17,7 +17,7 @@ public class TitleScript : MonoBehaviour
     [SerializeField] private Vector2 endPlace;
 
     [Header("Button")] 
-    [SerializeField] private Image playButton;
+    [SerializeField] private Image[] playButton = new Image[2];
     [Range(0,1)]
     [SerializeField] private float fadeIn;
 
@@ -35,7 +35,11 @@ public class TitleScript : MonoBehaviour
     IEnumerator FadeIn()
     {
         yield return new WaitForSeconds(duration / 2);
-        playButton.DOFade(fadeIn, duration);
+        for (int i = 0; i < playButton.Length; i++)
+        {
+            playButton[i].DOFade(fadeIn, duration);
+        }
+       
         this.gameObject.SetActive(false);
     }
 

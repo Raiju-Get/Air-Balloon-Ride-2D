@@ -19,10 +19,12 @@ public class AnswerSet : MonoBehaviour
     [SerializeField] private int totalNumberOfQuestion;
     [SerializeField] private List<Button> options = new List<Button>();
     [SerializeField] private JsonParser _jsonParser;
-    
-    
+
+
     public void  InitialSetUp()
     {
+        
+        Debug.Log("Its working");
         
         for (int i = 0; i < 5; i++)
         {

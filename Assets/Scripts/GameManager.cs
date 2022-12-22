@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI winnerName;
     [SerializeField] private PlaceTracker placeTracker;
     [SerializeField] private ButtonDeactivator buttonDeactivator;
+    [SerializeField] private GameObject tutorialObject;
+    [SerializeField] private GameObject tutorialPointer;
+    [SerializeField] private GameObject correctAnswerPointer;
+    [SerializeField] private GameObject tutorialText;
+    
     private GameStateMachine _currentState;
     private GameStateMachine _previousState;
     private float _tempTimer;
@@ -65,6 +70,29 @@ public class GameManager : MonoBehaviour
         set => startTimerPanel = value;
     }
 
+    public GameObject TutorialObject
+    {
+        get => tutorialObject;
+        set => tutorialObject = value;
+    }
+
+    public GameObject TutorialPointer
+    {
+        get => tutorialPointer;
+        set => tutorialPointer = value;
+    }
+    
+    public GameObject TutorialText
+    {
+        get => tutorialText;
+        set => tutorialText = value;
+    }
+    
+    public GameObject CorrectAnswerPointer
+    {
+        get => correctAnswerPointer;
+        set => correctAnswerPointer = value;
+    }
     public GameObject PlayerUI => playerUI;
     public GameObject Winner => winnerUI;
     public GameStateMachine CurrentState => _currentState;
@@ -73,6 +101,7 @@ public class GameManager : MonoBehaviour
     private readonly GameStateMachine _pauseState = new PauseState();
     public readonly GameStateMachine WinState = new WinState();
     public readonly GameStateMachine LoseState = new LoseState();
+    public readonly GameStateMachine TutorailState = new TutorailState();
     public AnswerSet AnswerSet => answerSet;
     public PlayerController PlayerController => playerController;
     public ButtonDeactivator ButtonDeactivator => buttonDeactivator;
@@ -82,6 +111,7 @@ public class GameManager : MonoBehaviour
     public float TempTimer { get=>_tempTimer; set=>_tempTimer = value; }
 
     public PlaceTracker PlaceTracker => placeTracker;
+    public bool isTutorial;
     
     private void Start()
     {
@@ -101,8 +131,20 @@ public class GameManager : MonoBehaviour
         startTimerPanel.SetActive(true);
         startTimerImage.gameObject.SetActive(true);
         startTimer = _tempStartTimer;
-        SwitchState(_startMenu);
+        if (isTutorial)
+        {
+            SwitchState(TutorailState);
+        }
+        else
+        {
+            
+            SwitchState(_startMenu);
+            
+        }
+        
     }
+
+
 
     public void EndState()
     {
@@ -115,6 +157,12 @@ public class GameManager : MonoBehaviour
         SwitchState(_pauseState);
     }
 
+    public void TutorialState()
+    {
+        isTutorial = true;
+        TutorialPointer.SetActive(true);
+    }
+
     public void ReturnState()
     {
         _currentState = _previousState;
@@ -125,6 +173,7 @@ public class GameManager : MonoBehaviour
     {
         _currentState = state;
         state.EnterState(this);
+        Debug.Log(_currentState);
     }
     
   
