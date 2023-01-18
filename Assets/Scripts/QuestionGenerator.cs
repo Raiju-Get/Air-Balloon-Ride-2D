@@ -36,7 +36,7 @@ public class QuestionGenerator : MonoBehaviour
                 {
                     gameManager.CorrectAnswerPointer.SetActive(true);
                     gameManager.CorrectAnswerPointer.GetComponent<RectTransform>().position =
-                        new Vector3(options[i].GetComponentInParent<RectTransform>().position.x+1.8f,options[i].GetComponentInParent<RectTransform>().position.y-0.2f,options[i].GetComponentInParent<RectTransform>().position.z);
+                        new Vector3(options[i].GetComponentInParent<RectTransform>().position.x+1f,options[i].GetComponentInParent<RectTransform>().position.y-0.2f,options[i].GetComponentInParent<RectTransform>().position.z);
                 }
                 
             }

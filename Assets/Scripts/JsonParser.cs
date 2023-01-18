@@ -34,7 +34,7 @@ public class JsonParser : MonoBehaviour
     public IEnumerator ReadData()
     {
        
-#if !UNITY_EDITOR
+/*#if !UNITY_EDITOR
          filePath = PlatformManager.instance.path;
         string gamePath = filePath + "/json/" + gameName + ".json";
         using ( UnityWebRequest www = UnityWebRequest.Get(gamePath))
@@ -57,11 +57,12 @@ public class JsonParser : MonoBehaviour
         }
 #endif
 
-#if UNITY_EDITOR
+#if UNITY_EDITOR*/
         yield return new WaitForSeconds(0.1f);
         _parsedJson = JSONNode.Parse(assetJson.text);
+        PlatformManager.instance.loadingPanel.SetActive(true);
         _answerSet.InitialSetUp();
-#endif
+/*#endif*/
 
 
     }

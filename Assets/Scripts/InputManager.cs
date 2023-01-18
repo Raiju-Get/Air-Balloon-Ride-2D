@@ -15,6 +15,11 @@ public class InputManager : MonoBehaviour
 
   public void GetAnswer(TextMeshProUGUI answer)
   {
+     IExample child = new ChildClass();
+     child.run();
+
+     IExample ssecondClid = new SecondChild();
+     ssecondClid.run();
     if (answer.text == correctAnswer)
     { 
       if (gameManager.isTutorial)

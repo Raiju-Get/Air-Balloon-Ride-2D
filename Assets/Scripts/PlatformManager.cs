@@ -25,7 +25,7 @@ public class PlatformManager : MonoBehaviour
 
         instance = this;
 
-        loadingPanel.SetActive(true);
+        
         ChimpvineMessenger.assetsPathInitialized += OnInitialize;
 
         //#if UNITY_WEBGL && !UNITY_EDITOR

@@ -1,0 +1,824 @@
+{
+    "5-English-Hotair balloon-Conjunctions": {
+        "Level 1": {
+            "I went to the store, but I forgot my wallet.": {
+                "Correct": "but",
+                "Incorrect1": "went",
+                "Incorrect2": "store",
+                "Incorrect3": "forgot",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Although I'm tired, I'm still determined to finish the work. ": {
+                "Correct": "Although",
+                "Incorrect1": "determined",
+                "Incorrect2": "tired",
+                "Incorrect3": "work",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He yells as if he were mad.": {
+                "Correct": "as if",
+                "Incorrect1": "yells",
+                "Incorrect2": "mad",
+                "Incorrect3": "were",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Even though I'm feeling overwhelmed, I'm ready to take on the challenge.": {
+                "Correct": "Even though",
+                "Incorrect1": "feeling",
+                "Incorrect2": "challenge",
+                "Incorrect3": "ready",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He walked fast so that we might catch the train.": {
+                "Correct": "so that",
+                "Incorrect1": "fast",
+                "Incorrect2": "catch",
+                "Incorrect3": "train",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "As long as I stay focused, I'm sure I can get the job done.": {
+                "Correct": "As long as",
+                "Incorrect1": "stay",
+                "Incorrect2": "focused",
+                "Incorrect3": "job",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Unless I get some rest soon, I won't be able to continue.": {
+                "Correct": "Unless",
+                "Incorrect1": "rest",
+                "Incorrect2": "soon",
+                "Incorrect3": "continue",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "It is nothing else but a fraud.": {
+                "Correct": "but",
+                "Incorrect1": "is",
+                "Incorrect2": "fraud",
+                "Incorrect3": "nothing",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I wanted to go to the store, but I had no money.": {
+                "Correct": "but",
+                "Incorrect1": "wanted",
+                "Incorrect2": "store",
+                "Incorrect3": "money",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I was feeling down, yet I was determined to stay positive.": {
+                "Correct": "yet",
+                "Incorrect1": "down",
+                "Incorrect2": "stay",
+                "Incorrect3": "positive",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 2": {
+            "She was running late, so she had to hurry.": {
+                "Correct": "so that",
+                "Incorrect1": "she",
+                "Incorrect2": "had",
+                "Incorrect3": "was",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I can either go to the library or the cafe.": {
+                "Correct": "or",
+                "Incorrect1": "can",
+                "Incorrect2": "library",
+                "Incorrect3": "cafe",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She was looking for a new job, but she couldn’t find one.": {
+                "Correct": "but",
+                "Incorrect1": "new",
+                "Incorrect2": "one",
+                "Incorrect3": "job",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I had a lot of work to do, yet I still wanted to take a break.": {
+                "Correct": "yet",
+                "Incorrect1": "had",
+                "Incorrect2": "wanted",
+                "Incorrect3": "break",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I was feeling down, yet I kept pushing forward.": {
+                "Correct": "yet",
+                "Incorrect1": "pushing",
+                "Incorrect2": "forward",
+                "Incorrect3": "feeling",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He wanted to go on a date, but he was too nervous.": {
+                "Correct": "but",
+                "Incorrect1": "nervous",
+                "Incorrect2": "wanted",
+                "Incorrect3": "date",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He will not do it until you ask him.": {
+                "Correct": "until",
+                "Incorrect1": "ask",
+                "Incorrect2": "him",
+                "Incorrect3": "will",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He wanted to ask her out, but he was too shy.": {
+                "Correct": "but",
+                "Incorrect1": "wanted",
+                "Incorrect2": "he",
+                "Incorrect3": "shy",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I wanted to go to the beach, but it was too cold.": {
+                "Correct": "but",
+                "Incorrect1": "cold",
+                "Incorrect2": "beach",
+                "Incorrect3": "wanted",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She was tired, yet she kept going.": {
+                "Correct": "yet",
+                "Incorrect1": "kept",
+                "Incorrect2": "tired",
+                "Incorrect3": "going",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 3": {
+            "He was trying to get a better job, but he wasn’t having any luck.": {
+                "Correct": "but",
+                "Incorrect1": "he",
+                "Incorrect2": "was",
+                "Incorrect3": "luck",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I can go wherever she likes.": {
+                "Correct": "wherever",
+                "Incorrect1": "she",
+                "Incorrect2": "likes",
+                "Incorrect3": "can",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I was feeling anxious, yet I kept pushing forward.": {
+                "Correct": "yet",
+                "Incorrect1": "kept",
+                "Incorrect2": "feeling",
+                "Incorrect3": "pushing",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Jack and Jill went up the hill.": {
+                "Correct": "and",
+                "Incorrect1": "Jack",
+                "Incorrect2": "Jill",
+                "Incorrect3": "went",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "We can either go to the beach or the park.": {
+                "Correct": "or",
+                "Incorrect1": "go",
+                "Incorrect2": "park",
+                "Incorrect3": "beach",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is studying for his exams, and he is also working part-time at the library.": {
+                "Correct": "and",
+                "Incorrect1": "studying",
+                "Incorrect2": "library",
+                "Incorrect3": "exams",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is smart and talented.": {
+                "Correct": "and",
+                "Incorrect1": "smart",
+                "Incorrect2": "talented",
+                "Incorrect3": "is",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is smart, but she is also very kind.": {
+                "Correct": "but",
+                "Incorrect1": "she",
+                "Incorrect2": "kind",
+                "Incorrect3": "smart",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She wants to go to the beach, so she is packing her sunscreen and swimsuit.": {
+                "Correct": "so ",
+                "Incorrect1": "wants",
+                "Incorrect2": "she",
+                "Incorrect3": "sunscreen",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am tired, but I will still go to the gym.": {
+                "Correct": "but",
+                "Incorrect1": "gym",
+                "Incorrect2": "tired",
+                "Incorrect3": "will",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 4": {
+            "She cries as if she were beaten.": {
+                "Correct": "as if",
+                "Incorrect1": "were",
+                "Incorrect2": "beaten",
+                "Incorrect3": "cries",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is tall, yet he is not very athletic.": {
+                "Correct": "yet",
+                "Incorrect1": "tall",
+                "Incorrect2": "athletic",
+                "Incorrect3": "he",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a good writer and a great editor.": {
+                "Correct": "and",
+                "Incorrect1": "great",
+                "Incorrect2": "editor",
+                "Incorrect3": "good",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "We were going to have a barbecue, but it got too windy.": {
+                "Correct": "but",
+                "Incorrect1": "barbecue",
+                "Incorrect2": "going",
+                "Incorrect3": "windy",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He played soccer and basketball in high school.": {
+                "Correct": "and",
+                "Incorrect1": "played",
+                "Incorrect2": "high",
+                "Incorrect3": "school",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a good singer, and he can also play the guitar.": {
+                "Correct": "and",
+                "Incorrect1": "guitar",
+                "Incorrect2": "play",
+                "Incorrect3": "good",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He can choose to either go to the store or stay at home.": {
+                "Correct": "or",
+                "Incorrect1": "stay",
+                "Incorrect2": "home",
+                "Incorrect3": "choose",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I went to the store, but I forgot to buy milk.": {
+                "Correct": "but",
+                "Incorrect1": "buy",
+                "Incorrect2": "milk",
+                "Incorrect3": "store",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a great leader, and he is also very decisive.": {
+                "Correct": "and",
+                "Incorrect1": "decisive",
+                "Incorrect2": "leader",
+                "Incorrect3": "he",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a great teacher, and he is also very patient.": {
+                "Correct": "and",
+                "Incorrect1": "teacher",
+                "Incorrect2": "patient",
+                "Incorrect3": "great",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 5": {
+            "Although I'm feeling drained, I'm determined to keep going.": {
+                "Correct": "Although",
+                "Incorrect1": "determined",
+                "Incorrect2": "going",
+                "Incorrect3": "drained",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am trying to save money, but it is difficult to cut back on my expenses.": {
+                "Correct": "but",
+                "Incorrect1": "difficult",
+                "Incorrect2": "expenses",
+                "Incorrect3": "save",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "You can either go out or stay in tonight.": {
+                "Correct": "or",
+                "Incorrect1": "tonight",
+                "Incorrect2": "stay",
+                "Incorrect3": "can",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a good scientist and a great engineer.": {
+                "Correct": "and",
+                "Incorrect1": "scientist",
+                "Incorrect2": "great",
+                "Incorrect3": "engineer",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a skilled craftsman, and he is also very meticulous.": {
+                "Correct": "and",
+                "Incorrect1": "meticulous",
+                "Incorrect2": "skilled",
+                "Incorrect3": "also",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am trying to save money, but I also want to have fun.": {
+                "Correct": "but",
+                "Incorrect1": "save",
+                "Incorrect2": "fun",
+                "Incorrect3": "money",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He was exhausted, yet he still managed to finish the project.": {
+                "Correct": "yet",
+                "Incorrect1": "project",
+                "Incorrect2": "exhausted",
+                "Incorrect3": "finish",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is tired, so he is going to bed early.": {
+                "Correct": "so",
+                "Incorrect1": "tired",
+                "Incorrect2": "early",
+                "Incorrect3": "bed",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I was running late, so I had to take a taxi.": {
+                "Correct": "so",
+                "Incorrect1": "late",
+                "Incorrect2": "running",
+                "Incorrect3": "taxi",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a good teacher and a great mentor.": {
+                "Correct": "and",
+                "Incorrect1": "great",
+                "Incorrect2": "good",
+                "Incorrect3": "teacher",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 6": {
+            "I was running late, so I had to take the subway.": {
+                "Correct": "so",
+                "Incorrect1": "subway",
+                "Incorrect2": "running",
+                "Incorrect3": "take",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a doctor, and he is also very compassionate towards his patients.": {
+                "Correct": "and",
+                "Incorrect1": "patients",
+                "Incorrect2": "towards",
+                "Incorrect3": "doctor",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Unless I get a break soon, I'll be too tired to keep going.": {
+                "Correct": "Unless",
+                "Incorrect1": "break",
+                "Incorrect2": "keep ",
+                "Incorrect3": "going",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am trying to get in shape, but I don't always have the motivation.": {
+                "Correct": "but",
+                "Incorrect1": "motivaion",
+                "Incorrect2": "always",
+                "Incorrect3": "have",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I was running late, so I had to take the bus.": {
+                "Correct": "so",
+                "Incorrect1": "had",
+                "Incorrect2": "take",
+                "Incorrect3": "bus",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "We are going on a road trip, and we are also planning on camping in the national parks.": {
+                "Correct": "and",
+                "Incorrect1": "road",
+                "Incorrect2": "planning",
+                "Incorrect3": "national",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I can either have a sandwich or a salad for lunch.": {
+                "Correct": "or",
+                "Incorrect1": "salad",
+                "Incorrect2": "sandwich",
+                "Incorrect3": "have",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a good dancer, but she can't sing.": {
+                "Correct": "but",
+                "Incorrect1": "dancer",
+                "Incorrect2": "sing",
+                "Incorrect3": "good",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She was scared, yet she still decided to go parasailing.": {
+                "Correct": "yet",
+                "Incorrect1": "decided",
+                "Incorrect2": "parasailing",
+                "Incorrect3": "was",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is studying engineering, and he is also interested in computer science.": {
+                "Correct": "and",
+                "Incorrect1": "studying",
+                "Incorrect2": "computer",
+                "Incorrect3": "interested",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 7": {
+            "He is a good athlete and a great coach.": {
+                "Correct": "and",
+                "Incorrect1": "good",
+                "Incorrect2": "athlete",
+                "Incorrect3": "coach",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is worried about her exams, but she is confident in her studying.": {
+                "Correct": "but",
+                "Incorrect1": "worried",
+                "Incorrect2": "confident",
+                "Incorrect3": "studying",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a vegetarian, but her husband is a meat eater.": {
+                "Correct": "but",
+                "Incorrect1": "vegeterian",
+                "Incorrect2": "husband",
+                "Incorrect3": "meat",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Even though I'm struggling, I'm still determined to keep going.": {
+                "Correct": "Even though",
+                "Incorrect1": "keep",
+                "Incorrect2": "determined",
+                "Incorrect3": "going",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I like coffee, but I also enjoy trying different types of tea.": {
+                "Correct": "but",
+                "Incorrect1": "coffee",
+                "Incorrect2": "tea",
+                "Incorrect3": "different",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am studying for my exams, but I am also trying to have a social life.": {
+                "Correct": "but",
+                "Incorrect1": "social",
+                "Incorrect2": "life",
+                "Incorrect3": "trying",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a good musician and a great producer.": {
+                "Correct": "and",
+                "Incorrect1": "producer",
+                "Incorrect2": "good",
+                "Incorrect3": "musician",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I can either watch a movie or read a book.": {
+                "Correct": "or",
+                "Incorrect1": "movie",
+                "Incorrect2": "book",
+                "Incorrect3": "watch",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a great writer, and he is also very thoughtful.": {
+                "Correct": "and",
+                "Incorrect1": "thoughtful",
+                "Incorrect2": "great",
+                "Incorrect3": "writer",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a fast runner and a good swimmer.": {
+                "Correct": "and",
+                "Incorrect1": "swimmer",
+                "Incorrect2": "runner",
+                "Incorrect3": "fast",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 8": {
+            "I am trying to save money, but I also want to enjoy my life.": {
+                "Correct": "but",
+                "Incorrect1": "enjoy",
+                "Incorrect2": "life",
+                "Incorrect3": "save",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I either need to study or go to bed.": {
+                "Correct": "or",
+                "Incorrect1": "go ",
+                "Incorrect2": "bed",
+                "Incorrect3": "need",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "They are having a baby, and they are also getting married next year.": {
+                "Correct": "and",
+                "Incorrect1": "year",
+                "Incorrect2": "married",
+                "Incorrect3": "getting",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am trying to eat healthier, but I still crave junk food sometimes.": {
+                "Correct": "but",
+                "Incorrect1": "sometimes",
+                "Incorrect2": "trying",
+                "Incorrect3": "crave",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He can either turn left or right at the intersection.": {
+                "Correct": "or",
+                "Incorrect1": "left",
+                "Incorrect2": "right",
+                "Incorrect3": "intersection",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is good at math and science.": {
+                "Correct": "and",
+                "Incorrect1": "science",
+                "Incorrect2": "math",
+                "Incorrect3": "is",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a great leader, and he is also very fair.": {
+                "Correct": "and",
+                "Incorrect1": "very",
+                "Incorrect2": "leader",
+                "Incorrect3": "fair",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a talented artist and musician.": {
+                "Correct": "and",
+                "Incorrect1": "musician",
+                "Incorrect2": "artist",
+                "Incorrect3": "talented",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a talented writer, and she is also very imaginative.": {
+                "Correct": "and",
+                "Incorrect1": "imaginative",
+                "Incorrect2": "writer",
+                "Incorrect3": "she",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "You can either take the bus or walk to school.": {
+                "Correct": "or",
+                "Incorrect1": "bus",
+                "Incorrect2": "walk",
+                "Incorrect3": "school",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 9": {
+            "He has a lot of friends, but he doesn't have a girlfriend.": {
+                "Correct": "but",
+                "Incorrect1": "girlfriend",
+                "Incorrect2": "friends",
+                "Incorrect3": "have",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a great cook, and he also enjoys trying new recipes.": {
+                "Correct": "and",
+                "Incorrect1": "enjoys",
+                "Incorrect2": "new",
+                "Incorrect3": "cook",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "They are building a new house, and they are also planning on adopting a dog.": {
+                "Correct": "and",
+                "Incorrect1": "adpting",
+                "Incorrect2": "dog",
+                "Incorrect3": "house",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am saving up for a new car, but I am not sure which one to buy yet.": {
+                "Correct": "but",
+                "Incorrect1": "buy",
+                "Incorrect2": "saving",
+                "Incorrect3": "one",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a talented writer and poet.": {
+                "Correct": "and",
+                "Incorrect1": "poet",
+                "Incorrect2": "writer",
+                "Incorrect3": "talented",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I am learning a new language, but it is difficult for me.": {
+                "Correct": "but",
+                "Incorrect1": "difficult",
+                "Incorrect2": "language",
+                "Incorrect3": "learning",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She is a successful businesswoman, but she still makes time for her family.": {
+                "Correct": "but",
+                "Incorrect1": "makes",
+                "Incorrect2": "time",
+                "Incorrect3": "she",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He is a talented artist, and he is also very humble.": {
+                "Correct": "and",
+                "Incorrect1": "very",
+                "Incorrect2": "he",
+                "Incorrect3": "humble",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I'd like pizza or a salad for lunch.": {
+                "Correct": "or",
+                "Incorrect1": "salad",
+                "Incorrect2": "pizza",
+                "Incorrect3": "like",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "She was angry, yet she still managed to smile.": {
+                "Correct": "yet",
+                "Incorrect1": "was",
+                "Incorrect2": "smile",
+                "Incorrect3": "angry",
+                "Image": "",
+                "Suggestion": ""
+            }
+        },
+        "Level 10": {
+            "We can go to the movies, or we can stay home and watch Netflix.": {
+                "Correct": "or",
+                "Incorrect1": "we",
+                "Incorrect2": "go",
+                "Incorrect3": "watch",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I'm feeling hungry, so I'm going to make a sandwich.": {
+                "Correct": "so",
+                "Incorrect1": "make",
+                "Incorrect2": "hungry",
+                "Incorrect3": "going",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I'll buy the tickets, and you can buy the snacks.": {
+                "Correct": "and",
+                "Incorrect1": "you",
+                "Incorrect2": "buy",
+                "Incorrect3": "snacks",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I don't want to go out tonight, but my friends are insisting.": {
+                "Correct": "but",
+                "Incorrect1": "tonight",
+                "Incorrect2": "want",
+                "Incorrect3": "insisting",
+                "Image": "",
+                "Suggestion": ""
+            },
+            " She was late for work, yet her boss still praised her.": {
+                "Correct": "yet",
+                "Incorrect1": "boss",
+                "Incorrect2": "late",
+                "Incorrect3": "work",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "Let's go for a walk, or we can play a game.": {
+                "Correct": "or",
+                "Incorrect1": "game",
+                "Incorrect2": "can",
+                "Incorrect3": "walk",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "He's tired but he's determined to finish the task.": {
+                "Correct": "but",
+                "Incorrect1": "finish",
+                "Incorrect2": "task",
+                "Incorrect3": "tired",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I'll finish my work quickly, and then I'll have time to relax.": {
+                "Correct": "and",
+                "Incorrect1": "relax",
+                "Incorrect2": "work",
+                "Incorrect3": "then",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I have not seen him since he went away.": {
+                "Correct": "since",
+                "Incorrect1": "not",
+                "Incorrect2": "he",
+                "Incorrect3": "went",
+                "Image": "",
+                "Suggestion": ""
+            },
+            "I would rather die than beg.": {
+                "Correct": "than",
+                "Incorrect1": "would",
+                "Incorrect2": "die",
+                "Incorrect3": "beg",
+                "Image": "",
+                "Suggestion": ""
+            }
+        }
+    }
+}
